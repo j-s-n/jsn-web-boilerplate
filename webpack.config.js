@@ -36,8 +36,7 @@ module.exports = function (env) {
       App: './js/App.js'
     },
     output: {
-      filename: '[name].js',
-      path: './dist'
+      filename: './dist/[name].js'
     },
     resolve: {
       modules: ['node_modules', path.resolve('./src/js')]
